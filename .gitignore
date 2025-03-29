@@ -1,0 +1,23 @@
+# Ignore Lua language server metadata
+.lua_ls/
+
+# Ignore Neovim swap, backup, and undo files
+*.swp
+*.swo
+*.bak
+*.un~
+
+# Ignore package manager files
+node_modules/
+*.lock
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore Git-related temporary files
+.git/
+*.orig
+
+# Ignore dev files
+_dev.lua
